@@ -20,6 +20,7 @@ A RESTful backend application for managing orders and products, implementing CRU
 
 ## Project Structure
 
+``` ```
 OrderManagement/
  ├── src/
  │   └── main/
@@ -36,7 +37,7 @@ OrderManagement/
  │           └── static/templates (optional for UI)
  ├── pom.xml                                     # Maven dependencies
  └── README.md                                   # Project documentation
-
+``` ```
 
 ## How It Works
 
