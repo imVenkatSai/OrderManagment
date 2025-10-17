@@ -23,7 +23,7 @@ A RESTful backend application for managing orders and products, implementing CRU
 ```
 OrderManagement/
  ├── src/
- │   └── main/bbbb
+ │   └── main/
  │       ├── java/com/enterprise/
  │       │   ├── controller/          # REST controllers (OrderController, ProductController)
  │       │   ├── service/             # Business logic layer
