@@ -20,21 +20,23 @@ A RESTful backend application for managing orders and products, implementing CRU
 
 ## Project Structure
 
-├── src/
-│ └── main/
-│ ├── java/com/enterprise/
-│ │ ├── controller/ → REST controllers (OrderController, ProductController)
-│ │ ├── service/ → Business logic layer
-│ │ ├── dao/ → JPA Repositories (Data Access)
-│ │ ├── dto/ → Request/Response DTO classes
-│ │ ├── exceptions/ → Custom exception handlers
-│ │ ├── model/ → Entity classes (Order, Product)
-│ │ └── OrderManagementApplication.java → Entry point
-│ └── resources/
-│ ├── application.properties → DB and Spring config
-│ └── static/templates → (optional for UI)
-├── pom.xml → Maven dependencies
-└── README.md → Project documentation
+OrderManagement/
+ ├── src/
+ │   └── main/
+ │       ├── java/com/enterprise/
+ │       │   ├── controller/          # REST controllers (OrderController, ProductController)
+ │       │   ├── service/             # Business logic layer
+ │       │   ├── dao/                 # JPA Repositories (Data Access)
+ │       │   ├── dto/                 # Request/Response DTO classes
+ │       │   ├── exceptions/          # Custom exception handlers
+ │       │   ├── model/               # Entity classes (Order, Product)
+ │       │   └── OrderManagementApplication.java  # Entry point
+ │       └── resources/
+ │           ├── application.properties           # DB and Spring config
+ │           └── static/templates (optional for UI)
+ ├── pom.xml                                     # Maven dependencies
+ └── README.md                                   # Project documentation
+
 
 ## How It Works
 
